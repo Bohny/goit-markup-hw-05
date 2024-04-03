@@ -754,6 +754,8 @@ color: #4d5ae5;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
+  
 }
 
 .privacy-policy-input:checked + .privacy-policy-span .checkbox-svg {
