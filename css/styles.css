@@ -648,13 +648,15 @@ margin-bottom: 16px;
 
 .modal-string-input:focus {
   border-color: #4D5AE5;
+}
+
+.modal-string-input:focus + .modal-string-icon{
   fill: #4D5AE5;
 }
 
 .modal-message {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  border-color: #4D5AE5;
   width: 360px;
   height: 120px;
   font-size: 12px;
@@ -666,6 +668,10 @@ margin-bottom: 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-message:focus {
+  border-color: #4D5AE5;
 }
 
 .modal-wrapper {
