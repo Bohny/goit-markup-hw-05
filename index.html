@@ -489,12 +489,23 @@
           </svg>
         </div>
        </div>
-       <lable>
+       <div class="modal-wrapper">
+        <label class="modal-label" for="user_message">Comment</label>
+        <textarea
+          class="modal-message"
+          name="user_message"
+          id="user_message"
+          placeholder="Enter text"
+        ></textarea>
+      </div>
+       <lable class="privacy-policy-label">
         <input 
           type="checkbox" 
           name="" 
           id="">
-          I accept the terms and conditions of the <span class="privacy-policy">Privacy Policy</span>
+          I accept the terms and conditions of the 
+          <a href="#" target="_blank" class="privacy-policy">Privacy Policy
+          </a>
        </lable>
        <button type="submit" class="section-button">Send</button>
       </form>
