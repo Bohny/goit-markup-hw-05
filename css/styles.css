@@ -584,12 +584,6 @@ margin-right: 120px;
   margin-left: 80px;
 }
 
-.subscribe-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
 .form-element {
   display: flex;
   flex-direction: row;
