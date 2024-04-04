@@ -779,6 +779,11 @@ margin-bottom: 16px;
 
 }
 
+.modal-wrapper-comment {
+  position: relative;
+  margin-bottom: 16px;
+}
+
 .modal-string-icon {
   position: absolute;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
