@@ -729,11 +729,9 @@ margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;;
   display: block;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  color: rgba(64, 64, 64, 0.3);
+  margin-bottom: 4px;
+  color: #8e8f99;
 }
 
 .modal-string-input {
@@ -777,7 +775,7 @@ margin-bottom: 16px;
 
 .modal-wrapper {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 
